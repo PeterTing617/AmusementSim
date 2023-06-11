@@ -1,0 +1,20 @@
+﻿  AmusementPark.cpp
+  Attractions.cpp
+  AttractionsFactory.cpp
+  AttractionsVisitor.cpp
+  BonusTree.cpp
+  FerrisWheel.cpp
+  Game.cpp
+  GameState.cpp
+  LevelQueue.cpp
+  main.cpp
+  MainMenuState.cpp
+  RollerCoaster.cpp
+  State.cpp
+  StateStack.cpp
+  WaterPark.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 459 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  COS30008_PP2.vcxproj -> C:\Users\peter\Desktop\COS30008_Project2_Prototype_101226836_PeterTingTiewHieng\Release\COS30008_PP2.exe

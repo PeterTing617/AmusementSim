@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Singly Linked List + Queue">
+      <UniqueIdentifier>{98cb4e1f-1019-4e1b-99f6-1c414eaabb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arrays + Stack">
+      <UniqueIdentifier>{8baaae9e-d613-4ed4-842d-c61f98c6a969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{0b03cbb7-03d7-4129-9639-c4517e98e1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{85a50f48-7135-4b40-a1e7-9682f96bde91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory Pattern">
+      <UniqueIdentifier>{e9b0d2ff-e573-4e7f-8f32-a3d70153b51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visitor Pattern">
+      <UniqueIdentifier>{e1a9646a-c4a7-4aa4-a759-6ccf8d1ac34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attractions Object">
+      <UniqueIdentifier>{b9df0720-0388-42eb-ba57-51f0406e5334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom ADT">
+      <UniqueIdentifier>{d0aaa294-592c-4b68-9e9f-9352d60076fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trees">
+      <UniqueIdentifier>{d8b8f79b-0ce5-416e-aba1-2d1f9a717dd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StateStack.cpp">
+      <Filter>Arrays + Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelQueue.cpp">
+      <Filter>Singly Linked List + Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AttractionsFactory.cpp">
+      <Filter>Factory Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="AttractionsVisitor.cpp">
+      <Filter>Visitor Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Attractions.cpp">
+      <Filter>Attractions Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FerrisWheel.cpp">
+      <Filter>Attractions Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RollerCoaster.cpp">
+      <Filter>Attractions Object</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterPark.cpp">
+      <Filter>Attractions Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AmusementPark.cpp">
+      <Filter>Custom ADT</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusTree.cpp">
+      <Filter>Trees</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StateStack.h">
+      <Filter>Arrays + Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelQueue.h">
+      <Filter>Singly Linked List + Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AttractionsFactory.h">
+      <Filter>Factory Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="AttractionsVisitor.h">
+      <Filter>Visitor Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Attractions.h">
+      <Filter>Attractions Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FerrisWheel.h">
+      <Filter>Attractions Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RollerCoaster.h">
+      <Filter>Attractions Object</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterPark.h">
+      <Filter>Attractions Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AmusementPark.h">
+      <Filter>Custom ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusTree.h">
+      <Filter>Trees</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
